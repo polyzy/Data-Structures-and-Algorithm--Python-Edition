@@ -8,5 +8,4 @@ def insertSort(lst):
             lst[index] = lst[index - 1]
             lst[index-1] = tmp
             index -= 1
-        lst[index] = value
     return lst
